@@ -2,16 +2,14 @@
 
 * [京兆2号高性能网卡说明](README.md)
 
-## Getting Started
+## 硬件设计
 
-* [Quickstart](getting-started/quickstart.md)
-* [Publish your docs](getting-started/publish-your-docs.md)
+* [硬件设计](ying-jian-she-ji/ying-jian-she-ji.md)
 
-## Basics
+## 硬件仿真
 
-* [Editor](basics/editor.md)
-* [Markdown](basics/markdown.md)
-* [Images & media](basics/images-and-media.md)
-* [Interactive blocks](basics/interactive-blocks.md)
-* [OpenAPI](basics/openapi.md)
-* [Integrations](basics/integrations.md)
+* [硬件仿真](ying-jian-fang-zhen/ying-jian-fang-zhen.md)
+
+## 性能模拟器
+
+* [微架构模拟器](xing-neng-mo-ni-qi/wei-jia-gou-mo-ni-qi.md)
