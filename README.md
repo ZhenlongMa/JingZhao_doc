@@ -20,9 +20,7 @@ layout:
 
 # 京兆2号高性能网卡说明
 
-Welcome to the GitBook Starter Template! Here you'll get an overview of all the amazing features GitBook offers to help you build beautiful, interactive documentation.
-
-You'll see some of the best parts of GitBook in action — and find help on how you can turn this template into your own.
+京兆网卡是中国科学院计算技术研究所推出的开源高性能网卡，支持InfiniBand、RoCE等协议。目前最新版本是京兆2号。本文档为京兆2号硬件设计及配套的仿真环境、模拟器的说明文档。
 
 ### Jump right in
 
