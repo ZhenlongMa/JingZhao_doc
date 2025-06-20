@@ -4,7 +4,7 @@
 
 ## 硬件设计
 
-* [硬件设计](ying-jian-she-ji/ying-jian-she-ji.md)
+* [硬件设计](hw_design/ying-jian-she-ji.md)
 
 ## 硬件仿真
 
