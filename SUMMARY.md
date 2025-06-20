@@ -1,6 +1,6 @@
 # Table of contents
 
-* [京兆2号文档](README.md)
+* [京兆2号高性能网卡说明](README.md)
 
 ## Getting Started
 
@@ -15,7 +15,3 @@
 * [Interactive blocks](basics/interactive-blocks.md)
 * [OpenAPI](basics/openapi.md)
 * [Integrations](basics/integrations.md)
-
-## Group 1
-
-* [Advanced](group-1/advanced.md)
