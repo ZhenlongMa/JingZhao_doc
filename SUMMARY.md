@@ -2,7 +2,7 @@
 
 * [京兆2号高性能网卡说明](README.md)
 
-## 硬件设计
+## 硬件设计 <a href="#hw_design" id="hw_design"></a>
 
 * [硬件设计](hw_design/ying-jian-she-ji.md)
 
