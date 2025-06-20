@@ -23,3 +23,5 @@ layout:
 京兆网卡是中国科学院计算技术研究所推出的开源高性能网卡，支持InfiniBand、RoCE等协议。目前最新版本为京兆2号。本文档为京兆2号硬件设计及配套的仿真环境、模拟器的说明文档。
 
 京兆的源代码[见此](https://github.com/ETH-PLUS/Jingzhao)。
+
+<div data-full-width="true"><figure><img src=".gitbook/assets/芯片.png" alt="" width="188"><figcaption><p>京兆1号芯片封装</p></figcaption></figure></div>
