@@ -13,7 +13,3 @@
 ## 性能模拟器
 
 * [微架构模拟器](xing-neng-mo-ni-qi/wei-jia-gou-mo-ni-qi.md)
-
-## new
-
-* [新组](new_group/new.md)
