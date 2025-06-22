@@ -5,10 +5,7 @@
 ## 硬件设计 <a href="#hw_design" id="hw_design"></a>
 
 * [硬件设计](hw_design/ying-jian-she-ji.md)
-
-***
-
-* [ReqTransCore](reqtranscore.md)
+* [ReqTransCore](hw_design/reqtranscore.md)
 
 ## 硬件仿真
 
