@@ -5,7 +5,8 @@
 ## 硬件设计 <a href="#hw_design" id="hw_design"></a>
 
 * [总体设计](hw_design/ying-jian-she-ji.md)
-* [ReqTransCore](hw_design/reqtranscore.md)
+* [RDMA Core](hw_design/rdma-core/README.md)
+  * [ReqTransCore](hw_design/rdma-core/reqtranscore.md)
 
 ## 硬件仿真
 
