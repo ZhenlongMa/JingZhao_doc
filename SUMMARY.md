@@ -7,6 +7,7 @@
 * [总体设计](hw_design/ying-jian-she-ji.md)
 * [RDMA Core](hw_design/rdma-core/README.md)
   * [ReqTransCore](hw_design/rdma-core/reqtranscore.md)
+* [Queue Subsystem](hw_design/Queue_Subsystem/SQ_Management.md)
 
 ## 硬件仿真
 
