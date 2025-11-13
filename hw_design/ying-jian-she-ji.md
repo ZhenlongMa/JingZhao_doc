@@ -4,4 +4,6 @@
 
 <figure><img src="../.gitbook/assets/top.png" alt=""><figcaption></figcaption></figure>
 
-其中QueueSubsystem负责管理所有类型的队列资源，包括SQ、RQ、CQ、EQ；ResMgtSubsystem负责管理所有类型的通信状态资源，包括队列上下文、MPT、MTT；RDMACore是RDMA逻辑的核心部分，解析WQE、进行虚实地址转换，并将数据负载发送给传输子系统TransportSubsystem。
+PCIe Interface是网卡通过DMA与主机进行交互的接口。
+
+网卡的核心模块是Protocol Engine。其中QueueSubsystem负责管理所有类型的队列资源，包括SQ、RQ、CQ、EQ；ResMgtSubsystem负责管理所有类型的通信状态资源，包括队列上下文、MPT、MTT；RDMACore是RDMA逻辑的核心部分，解析WQE、进行虚实地址转换，并将数据负载发送给传输子系统TransportSubsystem。
