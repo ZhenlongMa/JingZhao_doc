@@ -8,6 +8,7 @@
 * [RDMA Core](hw_design/rdma-core/README.md)
   * [RequesterCore](hw_design/rdma-core/requester_core.md)
 * [Queue Subsystem](hw_design/Queue_Subsystem/SQ_Management.md)
+  * [RQ Management](hw_design/RQ_Management.md)
 
 ## 硬件仿真
 
