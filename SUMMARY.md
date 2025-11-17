@@ -4,7 +4,7 @@
 
 ## 用户手册
 
-* [用户手册](manual/manual.md)
+* [概述](manual/manual.md)
 
 ## 硬件设计 <a href="#hw_design" id="hw_design"></a>
 
@@ -12,9 +12,12 @@
 * [RDMA Core](hw_design/rdma-core/README.md)
   * [RequesterCore](hw_design/rdma-core/requester_core.md)
 * [Queue Subsystem](hw_design/Queue_Subsystem/que_subsys.md)
-  * [RQ Management](hw_design/RQ_Management.md)
-  * [SQ Management](hw_design/SQ_Management.md)
+  * [RQ Management](hw_design/Queue_Subsystem/RQ_Management.md)
+  * [SQ Management](hw_design/Queue_Subsystem/SQ_Management.md)
 * [Resource Manage](hw_design/Resource_Management/resc_manage.md)
+* [Transport Subsystem](hw_design/Transport_Subsystem/trans_subsys.md)
+
+## 软件设计
 
 ## 硬件仿真
 
