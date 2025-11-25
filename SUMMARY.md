@@ -16,6 +16,9 @@
   * [SQ Management](hw_design/Queue_Subsystem/SQ_Management.md)
 * [Resource Manage](hw_design/Resource_Management/resc_manage.md)
 * [Transport Subsystem](hw_design/Transport_Subsystem/trans_subsys.md)
+* Software
+  * [内核态驱动](software/kernel_driver.md)
+  * [用户态驱动](software/user_driver.md)
 
 ## 软件设计
 
