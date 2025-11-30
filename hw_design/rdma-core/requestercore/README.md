@@ -4,26 +4,29 @@
 
 RequesterCore是RDMA协议引擎的核心组件，负责处理请求发送和响应接收的完整流程。该模块实现了两个关键数据路径：TX\_REQ（请求发送）路径处理WQE并生成网络数据包；RX\_RESP（响应接收）路径处理网络响应包并完成数据传输。模块采用模块化设计，集成了三个关键子模块协同工作，确保高效可靠的RDMA操作。
 
-* **ReqTransCore**：负责TX\_REQ路径处理
+* ReqTransCore子模块：
   * 解析来自WQEParser的WQE元数据
   * 通过OoOStation获取QP上下文和内存区域信息
   * 管理DMA读操作(gather)获取WQE数据
   * 生成网络数据包并插入PacketBuffer
   * 触发CQ/EQ更新机制
   * 将WQE信息写入WQEBuffer供响应处理
-* **RespRecvCore**：负责RX\_RESP路径处理
+  * 负责TX\_REQ路径处理
+* RespRecvCore子模块：
   * 解析来自PacketDeparser的网络响应包
   * 通过OoOStation获取QP上下文和内存区域信息
   * 管理DMA写操作(scatter)将数据写回主机内存
   * 从WQEBuffer读取对应WQE完成处理
   * 释放接收缓冲区资源
   * 触发CQ/EQ更新机制
-* **WQEBuffer (DynamicMultiQueue)**：WQE动态存储管理
+  * 负责RX\_RESP路径处理
+* WQEBuffer (DynamicMultiQueue)子模块：
   * 为256个QP提供独立WQE存储队列
   * 每个队列支持64个WQE槽位
   * 槽位宽度为256位，适配RC类型WQE
   * 支持多队列并发入队(ReqTransCore)和出队(RespRecvCore)
   * 通过队列索引和槽位号精确管理WQE生命周期
+  * WQE动态存储管理
 
 ## 模块架构
 
