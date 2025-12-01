@@ -7,7 +7,6 @@
 
 * [总体设计](hw_design/hw_design.md)
 * [RDMA Core](hw_design/rdma-core/README.md)
-  * [RequesterCore](hw_design/rdma-core/requester_core.md)
   * [RequesterCore](hw_design/rdma-core/requestercore/README.md)
     * [RespRecvCore](hw_design/rdma-core/requestercore/resprecvcore/README.md)
       * [RespRecvCore\_Thread\_1](hw_design/rdma-core/requestercore/resprecvcore/resprecvcore_thread_1.md)
